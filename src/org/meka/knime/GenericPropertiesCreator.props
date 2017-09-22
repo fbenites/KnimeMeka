@@ -1,0 +1,8 @@
+weka.classifiers.Classifier=\
+     weka.classifiers.bayes,\
+     weka.classifiers.functions,\
+     weka.classifiers.lazy,\
+     weka.classifiers.meta,\
+     weka.classifiers.trees,\
+     weka.classifiers.rules,\
+     meka.classifiers.multilabel

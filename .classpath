@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.knime.ext.weka_3.7_3.4.0.v201702101156/knime-weka-37.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.knime.base_3.4.1.v201709070950/knime-base.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.knime.core_3.4.1.v201709070950/knime-core.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.knime.time_3.4.1.v201709070950.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.knime.core.util_5.6.1.v201709071135.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.apache.commons.codec_1.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.apache.xmlbeans_2.6.0.v201601112004/lib/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="lib/meka-1.9.2-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/weka-dev-3.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/mulan-1.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar"/>
+	<classpathentry kind="lib" path="/home/fbenites/src/knime/eclipse_knime_3.4.1/plugins/org.osgi.service.blueprint_1.0.2.201505202024.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

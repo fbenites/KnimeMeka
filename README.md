@@ -6,4 +6,4 @@ It is built on the weka plugin.
 Sources without any guarantee.
 GPL License.
 
-Code will be soon released!
+Code in alpha station working with meka 1.9.2 and knime 3.4.1

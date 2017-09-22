@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?><plugin>
+ <extension-point id="mekaclassifier" name="MekaClassifier" schema="schema/mekaclassifier.exsd"/>
+   <!-- This is an example for providing an own category 
+      <extension
+         point="org.knime.workbench.repository.categories">
+      <category
+            description="Category containing my nodes"
+            icon="icons/default.png"
+            level-id="myNodes"
+            name="My nodes"
+            path="/"/>
+   </extension>
+   -->
+   <extension point="org.knime.workbench.repository.nodes">
+      <node category-path="/" factory-class="org.meka.knime.predictor.MekaPredictorNodeFactory" id="org.meka.knime.predictor.MekaPredictorNodeFactory"/>
+   <node category-path="/" factory-class="org.meka.knime.utils.LabelsetStatisticsNodeFactory" id="org.meka.knime.utils.LabelsetStatisticsNodeFactory"/>
+</extension>
+   
+   <extension point="org.knime.workbench.repository.nodesets">
+      <node default-category-icon="icons/weka.png" expert-flag="false" factory-class="org.meka.knime.MekaTestNodeSetFactory" id="org.meka.knime.MekaTestNodeSetFactory"/>
+      <category icon="icons/weka.png" level-id="classifiers" name="Classification Algorithms" path="/meka/meka">
+      </category>
+      <category icon="icons/weka.png" level-id="multilabelclassifiers" name="multilabel Classification Algorithms" path="/meka/meka/classifiers">
+      </category>
+   </extension>
+   
+</plugin>

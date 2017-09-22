@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE knimeNode PUBLIC "-//UNIKN//DTD KNIME Node 2.0//EN" "http://www.knime.org/Node.dtd">
+<knimeNode icon="../../../../../../icons/wekapredictor.png" type="Predictor">
+    <name>Meka Predictor</name>
+    <shortDescription>
+        The Meka Predictor takes a model generated in a meka node and classifies (Multilabel) the test data at the inport.
+    </shortDescription>
+    <fullDescription>
+        <intro>
+            The Meka Predictor takes a model generated in a meka node and classifies the test data at the inport.
+        </intro>
+
+        <option name="Append Winner Value">
+            If the predicted attribute is nominal, a column for each nominal value with its probability is generated. If
+            the 'Append Winner Value' option is set, an extra column with the winner attribute value is generated.
+        </option>
+    </fullDescription>
+    <ports>
+        <inPort index="0" name="Meka model">Meka Classifier Model</inPort>
+        <inPort name="Test data" index="1">Test data</inPort>
+        <outPort name="Classified Test data" index="0">Classified rank data</outPort>
+
+    </ports>
+    <views>
+        <view index="0" name="Meka Node View">
+            Each Meka node provides a summary view that provides information about the classification. If the test data
+            contains a class column, an evaluation is generated.
+     	</view>
+    </views>
+
+</knimeNode>
